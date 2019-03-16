@@ -1,0 +1,549 @@
+    /* 
+    COLOR
+    /////////////////////////
+        #27276d first
+        #6699ff  second
+        
+
+    #000066
+    \\\\\\\\\\\\\\\\\\\\\\\\\\\
+    */
+
+    /*
+    general set up
+    ........................................*/
+    .section-heading {
+        margin: 3% 0 1% 0;
+    }
+
+    
+    .text-center {
+        text-align: center;
+    }
+    .text-justify {
+        text-align: justify;
+    }
+    .text-white {
+        color: #fff;
+    }
+    .section_heading_padding {
+        padding: 1em auto .5em auto;
+    }
+
+    *{
+        box-sizing: border-box;
+    }
+
+    html, body {
+        font-family: Ralway, Arial, Helvetica, sans-serif;
+        font-size: 17px;
+        height: 100%;
+        width: 100%;
+        line-height: 1.3;
+        letter-spacing: normal;
+        line-height: 1.4;
+        letter-spacing: 1.2;
+    }
+    
+
+    .floatLeft {
+        float: left;
+    }
+
+    .floatRight {
+        float: right
+    }
+
+    /* 
+        ICONS
+        ================================ */
+        .icon_big{
+            font-size: 200%;
+        }
+
+        .icon-box{
+            padding: 10px 14px;
+            margin: 0 4px;
+            font-size: 140%;
+            border-radius: 5px;
+        }
+        
+        .icon-box.facebook {
+            background-color: #3b5998;
+        }
+        .icon-box.facebook:hover {
+            color: #3b5998;
+            background-color: #fff;
+        }
+
+        .icon-box.twitter {
+            background-color: #55acee;
+        }
+        .icon-box.twitter:hover {
+            color: #55acee;
+            background-color: #fff;
+        }
+
+        .icon-box.youtube{
+            background-color: #b31217;
+        }
+        .icon-box.youtube:hover{
+            color: #b31217;
+            background-color: #fff;
+        }
+
+        .icon-box.instagram{background-color: #517fa4;}
+        .icon-box.instagram:hover{
+            color: #517fa4;
+            background-color: #fff;
+        }
+
+        .icon-box.linkedin {background-color: #0077b5;}
+        .icon-box.linkedin:hover {
+            color: #0077b5;
+            background-color: #fff;
+        }
+    /* 
+    =========================================================================
+        HEADER  HEADER  HEADER  HEADER  HEADER
+    =====================================================================================
+    */
+
+    /* 
+        Top most header 
+    ------------------------------------- */
+    #top-header-area {
+        /* background-color: #ffffcc; */
+        background-color: #6699ff;
+        padding: 0.4em 0 1em 0;
+    }
+
+    #top-header-for-social-media-and-contact {
+        width: 90%;
+        margin: 0 auto;
+        height: 35px;
+    }
+    #top-header-for-social-media-and-contact .social-media-left {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        margin: 12px 0;
+    }
+
+    #top-header-for-social-media-and-contact .social-media-left li {
+        display: inline-block;
+    }
+    .social-media-left{
+        margin-top: -99px;
+    }
+
+    .social-media-left a {
+        padding: 10px 14px;
+        margin-top: -42px;
+        color: #fff;
+    }
+
+    .header-contact-info span {
+        padding: 4px;
+        color: #fff;
+    }
+
+    
+    .donate{
+        background-color: #27276d;
+        padding: 0px 14px;
+    }
+
+    /* 
+        Main header 
+    ------------------------------------- */
+    .navbar-toggler-icon {
+        color: #fff;
+    }
+
+    #navbar-logo  img,
+    .church_logo {
+        max-width: 500px;
+        height: auto;
+    }
+    /* #main-navbar-header {
+        background-color: navy;
+    } */
+    #main-navbar-header {
+        background-color:  #27276d;
+        padding: 0 19px;
+        border-bottom: 4px solid #ffffe6;
+    }
+    #main-navbar-header #nav-item a{
+        color: #fff;
+    }
+    
+    #nav-item .donate{
+        display: none;
+    }
+    #main-navbar-header #nav-item a:hover {
+        /* color: orange; */
+        color: #58d7e7;
+    }
+    #dropdown-menu-css {
+        margin-top: 0;
+        height: auto;
+    }
+    #dropdown-menu-css a {
+        background-color: #27276d;
+        display: block;
+        border-bottom: 2px solid #fff;
+    }
+    #dropdown-menu-css a:hover {
+        background-color: #fff;
+        /* color: orange; */
+        
+    }
+
+    #dropdown-menu-css a:first-child {
+        margin-top: 5px;
+    }
+
+    #nav-item:hover    #dropdown-menu-css {
+        display: block;
+        background: none;
+    }
+    #nav-item:hover #dropdown-menu-css a {
+        display: block;
+        color: #6699ff;
+    }
+
+    .sticky{
+        position: fixed;
+        /*width: 100%;*/
+        left: 0;
+        right: 0;
+        top: 0;
+        z-index: 9;
+    }
+    .sticky #nav-item a.donate{
+        display: block;
+        padding-top: 8px;
+    }
+
+/* 
+    SLIDER STARS HERE===================================================
+*/
+
+ h1,    
+ h2 {
+        color: #ffffe6;
+        text-align: center;
+    }
+    #slider-wrapper img {
+        width: 100%;
+        max-height: 500px;
+        min-height: 400px;
+    }
+
+    .slider-content-holder {
+        margin-top: 120px;
+        text-align: center;
+    }
+
+    .slider-content-links {
+        margin-top: 42px;
+    }
+    
+    #slider-wrapper .slider-content-links a {
+        color: #fff;
+        padding: 8px 16px;
+        border: 2px solid #6699ff;
+        margin-left: 9px;
+    }
+
+    #slider-wrapper .slider-content-links a.full {
+        background-color: #6699ff;
+    }
+
+    /* ======================================================
+        CHURCH ACTIVITIES SECTION   CHURCH ACTIVITIES SECTION
+    ================================================ =======*/
+    #church_activities {
+        background-color: #27276d;
+        color: #fff;
+        text-align: center;
+        padding: 1em auto !important;
+    }
+    #church_activities.belief_img_desc {
+        text-align: left;
+    }
+    #belief_section{
+        color: #27276d;
+    } 
+    .belief_img_desc img {
+        height: 355px;
+        margin-top: 8px;
+    }
+    .beliefs_content{
+        border-left: 6px solid #27276d;
+    }
+    ul {
+        margin: 0;
+        padding: 0;
+        padding-left: 13px;
+        list-style-type: square;
+    }
+    ul li {
+        text-align: left;
+        margin-top: 4px;
+    }
+
+    /* ==============================
+        FOOTER FOOTER
+    ============================ */
+    footer{
+        background-color: #27276d;
+        color: #fff;
+        font-size: 80%;
+        padding-top: 1.5em;;
+    }
+
+    footer a{
+        color: #fff;
+    }
+    
+
+    footer img{
+        margin-left: -30px;
+        width: 400px;
+        margin-bottom: 22px;
+        /* margin-top: 20px; */
+        margin-top: -4px;
+    }
+
+    
+    .about_footer_img{
+        margin-top: 0;
+    }
+    .footer_about-column {
+        border-right: 1px solid #58d7e7;
+        padding-right: 4px;
+        font-size: 120%;
+        font-family: sans-serif;
+        text-align: justify;
+    }
+    .footer_about-column strong{
+        font-style: italic;
+    }
+
+    
+    /* ===============================================================================
+    
+    ABOUT PAGE ABOUT PAGE     ABOUT PAGE     ABOUT PAGE     ABOUT PAGE     ABOUT PAGE
+    
+    =================================================================================*/
+
+
+    #about_section_banner{
+        background: linear-gradient(#27276dab, #27276dab), url(./lib/img/home_bg_img_1.jpg) no-repeat center;
+        background-size: cover;
+        background-attachment: fixed;
+        color: #fff;
+        text-align: center;
+    }
+    #about_section_banner h1{
+        padding: 1.6em 0 0.3em 0;
+    }
+    #about_section_banner h4{
+        padding-bottom: 1em;
+    }
+
+    #faqs_section h3{
+        padding: 1.6em 0 0.3em 0;
+    }
+    #faqs_section{
+        text-align: justify;
+        background: linear-gradient(#9999ff, #fff, #fff);
+        padding-bottom: 2em;
+        /* background-attachment: fixed; #0755f081 */
+    }
+    
+    
+    /* ===============================================================================
+    
+    CONTACT CONTACT     CONTACT     CONTACT     CONTACT     CONTACT
+    
+    =================================================================================*/
+
+    #contact_section_banner {
+        background: linear-gradient(#27276dab, #27276dab), url(./lib/img/contact_banner.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        padding: 2em 0;
+        text-align: center;
+        color: #fff;
+    }
+
+    #contct_section_banner ul.social-links{
+        list-style: none;
+        margin: 0;
+    }
+
+    ul.social-links li{
+        display: inline;
+    }
+
+
+    /* ===============================================================================
+    
+    ACTIVITIES ACTIVITIES     ACTIVITIES     ACTIVITIES     ACTIVITIES     ACTIVITIES
+    
+    =================================================================================*/
+    #activities_section_banner {
+        background: linear-gradient(#27276d8e, #58d6e7af), url(./lib/img/hours_of_service.jpg) no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 2em 0;
+        text-align: center;
+        color: #fff;
+    }
+
+    .upcoming_event {
+        background-color: #27276d;
+        padding: 1em 0;
+        color: #fff;
+    }
+    .events_timing{
+        background-color: #fff;
+        padding: 0.5em 0.1em;
+        text-align: center;
+        color: #27276d;
+    }
+    /* ICON */
+    /* .icon-big{
+        color: rgb(228, 95, 7);
+        font-size: 32px;
+    }
+    .icon {margin-right: 15px;}
+
+    #Contact-section-banner{
+        background: url(../img/slider3.jpg) no-repeat content-box;
+        color: #18BC9C;
+        text-align: center;
+    }
+    h1 {
+        color: #ffffe6 !important;
+    }
+    
+    .contact-main-heading,
+    .contact-link-area {
+        padding:42px;
+    }
+    .contact-link-area .icon-big{
+        color: #ffffe6;
+    }
+
+    .send-message-btn {
+        border: 1px solid rgb(228, 95, 7);
+        background-color: rgb(228, 95, 7);
+        color: #fff;
+        padding: 5px;
+    }
+
+    .send-message-btn:hover {
+        color: rgb(228, 95, 7);
+        background-color: #fff; 
+    } */
+
+    /* ========================================================================
+    
+    RWD
+    
+    =======================================================================*/
+
+
+    
+    @media screen and (max-width:899px) {
+
+
+        #navbar-logo  img {
+            max-width: 330px;
+            height: 100px;
+        }
+        .rwd_heading_padding_top {
+            margin-top: 5%;
+        }
+    }
+
+    @media screen and (max-width:784px) {
+
+
+        #navbar-logo  img {
+            max-width: 330px;
+            height: 100px;
+        }
+        .rwd_heading_padding_top {
+            margin-top: 5%;
+        }
+    }
+
+    @media only screen and (max-width: 500px) {
+        
+        #navbar-logo  img,
+        .church_logo{
+            max-width: 200px;
+            height: 80px;
+        } 
+        html, body {
+            font-family: Ralway, Arial, Helvetica, sans-serif;
+            font-size: 17px;
+            height: 100%;
+            word-wrap: break-word;
+        }
+
+        .rwd_heading_padding_top {
+            margin-top: 9%;
+        }
+        
+        .beliefs_content{
+        border-left: 0;
+        }
+        
+        .belief_img_desc img {
+            height: auto;
+            margin-top: 12px;
+        }
+    }
+
+@media only screen and (max-width: 300px) {
+     #navbar-logo  img,
+        .church_logo{
+            max-width: 100px;
+            height: auto;
+        } 
+    .floatRight{display: none;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
